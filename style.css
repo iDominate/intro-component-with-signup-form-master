@@ -1,0 +1,317 @@
+/* ################################ Begin General Styles ########################## */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background: url('./images/bg-intro-desktop.png') rgba(255, 0, 0, .6) !important;
+}
+
+/* ################################ End General Styles ########################## */
+
+
+
+/* ################################ Begin Left Side ########################## */
+
+
+.text-wrapper {
+    margin-top: 28%;
+    width: 30rem;
+    height: 20rem;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nested-text-wrapper>* {
+    font-weight: 700;
+}
+
+.nested-text-wrapper>h1:last-of-type {
+    margin-bottom: 1.8rem;
+}
+
+.nested-text-wrapper>p {
+    margin-bottom: 0px;
+    font-weight: 400;
+
+    font-size: 15px;
+
+}
+
+
+/* ################################ End Left Side ########################## */
+
+/* ################################ Begin Right Side ########################## */
+
+/*  ##################### Begin Upper Ad ######################### */
+.col>.upper-ad {
+    color: #fff;
+
+    background-color: #5D54A3;
+    width: 34rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4rem;
+
+    border-radius: .4rem;
+    box-shadow: 0px 3px #D96868;
+    margin-bottom: 2rem;
+}
+
+.upper-ad>span {
+    font-weight: 700;
+}
+
+/*  ##################### End Upper Ad ######################### */
+
+/*  ####################### Begin Form ################## */
+
+.form-wrapper {
+    background-color: #fff;
+    padding-top: 1px;
+    border-radius: 5px;
+    text-align: center;
+    width: 34rem;
+
+
+
+
+}
+
+.input-message-wrapper {
+
+    height: 5rem;
+    margin-bottom: 1rem;
+    width: 33rem;
+    margin-left: 2.5%;
+
+}
+
+.input-wrapper {
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    height: 3rem;
+    text-align: start;
+    width: 31rem;
+    margin-left: 9px;
+
+
+}
+
+.input-wrapper>img {
+
+    margin-bottom: 5px;
+    margin-left: 15px;
+    visibility: hidden;
+
+}
+
+.input-wrapper>input {
+    width: 27rem;
+    height: 100%;
+    border: none;
+    text-indent: 2rem;
+    margin-left: 3px;
+}
+
+.input-wrapper>input:focus {
+
+    outline: none;
+}
+
+
+
+
+.input-message-wrapper>p {
+    text-align: right;
+    color: #f00;
+    font-size: 13px;
+    font-size: 11px;
+    margin-top: 11px;
+    width: 31rem;
+    visibility: hidden;
+
+
+}
+
+.input-message-wrapper:first-of-type {
+    margin-top: 42px;
+}
+
+.form-wrapper>button {
+    width: 32rem;
+    display: block;
+    height: 3rem;
+    border: none;
+    background-color: #37CC8A;
+    margin-top: 0.3rem;
+    border-radius: 0.4rem;
+    box-shadow: 0px 2px #aaa;
+    color: #fff;
+
+    margin-bottom: 14px;
+
+    font-weight: 400;
+    font-size: 26px;
+    margin-left: 1rem;
+
+}
+
+.form-wrapper>span {
+
+    font-size: 13px;
+    color: hsl(246, 25%, 77%);
+    height: 3rem;
+    display: inline-block;
+}
+
+.col>span>span {
+    color: hsl(249, 10%, 26%);
+}
+
+
+/*  ####################### End Form ################## */
+
+/* ################################ End Right Side ########################## */
+
+
+/* ########################### Begin Media Queries ########################### */
+
+/* @media screen and (min-width: 282px) and (max-width:376px) {
+
+    .nested-text-wrapper>p {
+        font-size: 11px;
+    }
+
+    .text-wrapper {
+        height: 10rem;
+        margin-top: 0rem;
+    }
+
+    .nested-text-wrapper>h1 {
+        font-size: 21px;
+    }
+
+    .upper-ad {
+
+        width: 22rem;
+        margin-left: 3.3rem;
+
+        margin-bottom: 0.7rem !important;
+    }
+
+    .form-wrapper>button {
+        width: 20rem;
+        margin-bottom: 0px;
+    }
+
+    .form-wrapper {
+        width: 22rem;
+
+
+
+    }
+
+    .form-wrapper>span {
+        font-size: 10px;
+        height: 2rem;
+    }
+
+    .input-wrapper {
+        width: 19rem;
+        height: 54%;
+        margin-left: 1rem;
+    }
+
+    .input-wrapper>input {
+        width: 15rem;
+    }
+
+    .input-message-wrapper {
+
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .input-message-wrapper>p {
+        width: 19rem;
+    }
+
+    .input-message-wrapper:first-of-type {
+        margin-top: 1rem;
+    }
+
+} */
+
+
+@media screen and (min-width: 0px) and (max-width: 415px) {
+    .upper-ad {
+        width: 25rem !important;
+        margin-left: 1.7rem;
+        margin-bottom: 1rem;
+        height: 5rem;
+    }
+
+    .text-wrapper {
+        margin-top: 2rem;
+        height: 13rem;
+    }
+
+    .input-wrapper {
+
+        width: 21rem;
+        margin-left: 0.9rem;
+        height: 4rem;
+    }
+
+    .form-wrapper {
+        width: 24rem;
+        margin-left: 33px;
+
+    }
+
+    .input-message-wrapper {
+        margin-bottom: 0px;
+    }
+
+    .form-wrapper>button {
+        width: 22rem;
+    }
+
+    .form-wrapper {
+        font-size: 11px;
+    }
+
+    .input-message-wrapper:first-of-type {
+        margin-top: 2rem;
+    }
+
+    .input-wrapper>input {
+        width: 17rem;
+
+    }
+}
+
+
+
+/* ########################### End Media Queries ########################### */
